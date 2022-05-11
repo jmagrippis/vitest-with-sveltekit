@@ -5,5 +5,10 @@
 	export let value: number
 </script>
 
-<h3>{title}</h3>
-<div class="text-4xl">{formatCurrency(value)}</div>
+<li class="flex gap-6 rounded bg-surface-1 py-4 px-6 shadow">
+	<slot name="icon" />
+	<div>
+		<h3 class="text-2xl text-copy-muted">{title}</h3>
+		<div class="text-4xl">{formatCurrency(value)}</div>
+	</div>
+</li>
