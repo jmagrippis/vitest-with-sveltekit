@@ -1,12 +1,16 @@
 /// <reference types="@sveltejs/kit" />
 
 declare module '$lib/icons/*.svg' {
+	import type {SvelteComponent} from 'svelte'
+
 	const content: SvelteComponent
 	export default content
 }
 
 declare module '*.svg?component' {
-	const content: any
+	import type {SvelteComponent} from 'svelte'
+
+	const content: SvelteComponent
 	export default content
 }
 
