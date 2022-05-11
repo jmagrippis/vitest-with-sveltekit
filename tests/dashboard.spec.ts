@@ -2,7 +2,8 @@ import {test} from '@playwright/test'
 import {getDocument, queries} from 'playwright-testing-library'
 
 const {getByRole, getByText} = queries
-test('basic test', async ({page}) => {
+
+test('dashboard happy path', async ({page}) => {
 	await page.goto('/dashboard')
 	const $document = await getDocument(page)
 
