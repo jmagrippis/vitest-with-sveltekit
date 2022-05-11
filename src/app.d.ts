@@ -1,7 +1,7 @@
 /// <reference types="@sveltejs/kit" />
 
-declare module '*.svg' {
-	const content: any
+declare module '$lib/icons/*.svg' {
+	const content: SvelteComponent
 	export default content
 }
 

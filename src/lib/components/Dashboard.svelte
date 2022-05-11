@@ -1,8 +1,8 @@
 <script lang="ts">
 	import CurrencyStat from './CurrencyStat.svelte'
-	import AccountBalance from '$lib/icons/account-balance.svg?component'
-	import Revenue from '$lib/icons/revenue.svg?component'
-	import Pending from '$lib/icons/pending.svg?component'
+	import AccountBalance from '$lib/icons/account-balance.svg'
+	import Revenue from '$lib/icons/revenue.svg'
+	import Pending from '$lib/icons/pending.svg'
 
 	export let balance: number
 	export let revenue: number
