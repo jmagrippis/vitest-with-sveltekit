@@ -3,5 +3,5 @@
 </script>
 
 <header class="text-primary py-4 text-center text-2xl">
-	Vitest with Svelte
+	Vitest TDD with SvelteKit
 </header>
